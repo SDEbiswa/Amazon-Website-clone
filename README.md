@@ -1,2 +1,2 @@
 # Amazon-Website-clone
-I have created this website using HTML and CSS.
+I have created this website clone using HTML and CSS.
