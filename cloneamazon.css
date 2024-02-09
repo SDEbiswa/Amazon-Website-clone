@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+    
+}
+
+body{
+    background-color:  #E8E8E8;
+}
+
+.navbar{
+    height: 63px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 53px;
+    width: 122px;
+}
+.logo{
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg);
+    background-size: cover;
+    height: 53px;
+    width: 115px;
+    margin-left: 3px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/*box2*/
+
+.add-sec{
+    height: 45px;
+    width: 80px;
+    margin-left: 13px;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+.add-del{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-logo{
+    display: flex;
+}
+.add-cont{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/*box3*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+    width: 700px;
+    height: 40px;
+}
+.search-bar{
+    width: 100%;
+    text-align: justify;
+    font-size: 1rem;
+    border: none;
+}
+.nav-select{
+    width: 55px;
+    background-color: #f3f3f3;
+    color: #3b3b3b;
+    font-size: 1rem;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+    border: none;
+}
+.search-logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+    border-radius: 7px;
+}
+
+/*box4*/
+
+.nav-sign{
+    height: 53px;
+    width: 122px;
+}
+
+.sign-in{
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+span{
+    font-size: 0.75rem;
+    font-weight: 200;
+}
+
+.sign-second{
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+/*box5*/
+
+.nav-return{
+    height: 53px;
+    width: 78px;
+}
+
+.nav-order{
+    font-size: 0.9rem;
+    font-weight: 750;
+}
+
+.nav-back{
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+/*box6*/
+
+.nav-cart{
+    height: 53px;
+    width: 82px;
+}
+
+.nav-cart i{
+    font-size: 33px;
+}
+
+.cart-pad{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding-top: 9px;
+    padding-left: 6px;
+}
+
+/*PANNEL*/
+
+.pannel-start{
+    height: 40px;
+    background-color:#222f3d ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.pannel-tags{
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 95%;
+}
+
+.pannel-menu{
+    height: 27px;
+    width: 43px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-top: 10px;
+    margin-left: 8px;
+}
+
+.first-anc{
+    height: 27px;
+    width: 96px;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.second-anc{
+    height: 27px;
+    width: 120px;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.third-anc{
+    height: 27px;
+    width: 59px;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.fourth-anc{
+    height: 27px;
+    width: 70px;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.fifth-anc{
+    height: 27px;
+    width: 31px;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+/*Main Section*/
+
+.main-sec{
+    height: 330px;
+    background: url(https://m.media-amazon.com/images/I/71nwqPZaNRL._SX3000_.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-msg{
+    height: 40px;
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-para a{
+    color: #007185;
+}
+
+.main-para{
+    width: 97%;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+/* 8 Container */
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+
+.shop-box{
+    height: 395px;
+    width: 21%;
+    background-color: white;
+    padding: 14px 18px;
+    margin-top: 14px;
+}
+
+.shop-box a{
+    color:  #007185;
+    margin-top: 17px;
+    margin-left: 1px;
+}
+
+.shop-box h3{
+    font-size: 20px;
+    margin-left: 1px;
+    margin-top: 12px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 11px;
+    margin-left: 1px;
+}
+
+/** sign in **/
+
+.connection{
+    height: 200px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.sign-click{
+    border: 0.5px solid #ccbdbc;
+    height: 127px;
+    width: 100%;
+    position: relative;
+    top: 43px;
+   /* border-left: none;
+    border-right: none;*/
+    border-radius: 5px;
+    text-align: center;
+}
+
+.position{
+    font-size: 13px;
+    position: relative;
+    top: 35px;
+}
+
+.submit-border{
+    height: 30px;
+    width: 245px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #f0bd32;
+    border: none;
+    border-radius: 4px;
+    outline: color(#e3a805);
+    margin-top: 3px;
+}
+
+/** FOOTER **/
+
+.first-pannel{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-para{
+    font-size: 15px;
+    color: white;
+}
+
+.sec-pannel{
+    height: 495px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+ul a{
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+ul{
+    margin-top: 32px;
+}
+
+.logo-pannel{
+    height: 66px;
+    background-color: #222f3d;
+    border-top: 0.5px solid #ccbdbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-logo{
+    background-image: url(amazon-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 120px;
+    margin-top: 7px;
+}
+
+.last-pan{
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.last-atag{
+    font-size: 14px;
+}
+
+.last-para{
+    font-size: 14px;
+}
